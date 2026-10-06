@@ -1,0 +1,19 @@
+! Exp 11 - router command basics (run in this order on any router)
+show version
+show flash
+show running-config
+show ip protocols
+show ip route
+show history
+show clock
+show hosts
+show interfaces
+show ip interface brief
+show controllers serial 0/0/0
+! mode switching
+disable
+enable
+configure terminal
+exit
+! save
+copy running-config startup-config

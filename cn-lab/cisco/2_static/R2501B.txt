@@ -1,0 +1,6 @@
+enable
+configure terminal
+ip route 172.16.10.0 255.255.255.0 172.16.20.1
+ip route 172.16.50.0 255.255.255.0 172.16.40.2
+end
+write memory

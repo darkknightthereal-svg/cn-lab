@@ -1,0 +1,9 @@
+! Verify (run in privileged mode)
+show ip interface brief
+show ip route
+show ip protocols
+show ip rip database          ! RIP only
+show ip ospf neighbor         ! OSPF only (state FULL)
+show ip route ospf            ! OSPF only
+ping 172.16.50.1              ! from R2621A
+ping 172.16.10.1              ! from R2501C

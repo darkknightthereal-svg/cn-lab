@@ -1,0 +1,8 @@
+! Only if you did static first in the same file. Easier: use a fresh copy of base.pkt.
+! Run on each router in config mode, one "no ip route" per route you added.
+! Example for R2621A:
+no ip route 172.16.20.0 255.255.255.0 172.16.10.2
+no ip route 172.16.30.0 255.255.255.0 172.16.10.2
+no ip route 172.16.40.0 255.255.255.0 172.16.10.2
+no ip route 172.16.50.0 255.255.255.0 172.16.10.2
+! Remove RIP before OSPF:  no router rip

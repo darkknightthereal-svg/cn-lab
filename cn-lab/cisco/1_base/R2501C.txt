@@ -1,0 +1,13 @@
+enable
+configure terminal
+hostname R2501C
+interface serial 0/0/0
+ ip address 172.16.40.2 255.255.255.0
+ no shutdown
+ exit
+interface fastEthernet 0/0
+ ip address 172.16.50.1 255.255.255.0
+ no shutdown
+ exit
+end
+write memory
