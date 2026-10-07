@@ -1,0 +1,10 @@
+cd ~
+git clone YOUR-LINK
+cd cn-lab/cn-lab
+ls
+gcc exp6_udp_translator/server.c -o exp6_udp_translator/server
+gcc exp6_udp_translator/client.c -o exp6_udp_translator/client
+  cd ~/cn-lab/cn-lab(terminal 1)
+./exp6_udp_translator/server
+  cd ~/cn-lab/cn-lab(terminal 2)
+./exp6_udp_translator/client
