@@ -1,0 +1,11 @@
+cd ~
+git clone YOUR-LINK
+cd cn-lab/cn-lab
+ls
+gcc exp9_tcp_file_server/server.c -o exp9_tcp_file_server/server
+gcc exp9_tcp_file_server/client.c -o exp9_tcp_file_server/client
+  cd ~/cn-lab/cn-lab/exp9_tcp_file_server(terminal 1)
+./server
+  cd ~/cn-lab/cn-lab/exp9_tcp_file_server(terminal 2)
+./client
+  test.txt then run ./client
