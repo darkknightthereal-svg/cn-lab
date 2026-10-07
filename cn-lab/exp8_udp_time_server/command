@@ -1,0 +1,13 @@
+cd ~
+git clone YOUR-LINK
+cd cn-lab/cn-lab
+ls
+gcc exp8_udp_time_server/server.c -o exp8_udp_time_server/server
+gcc exp8_udp_time_server/client.c -o exp8_udp_time_server/client
+  cd ~/cn-lab/cn-lab(terminal 1)
+./exp8_udp_time_server/server
+  cd ~/cn-lab/cn-lab(terminal 2)
+./exp8_udp_time_server/client
+./exp8_udp_time_server/client
+./exp8_udp_time_server/client
+  
